@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css" />
+ <!--the title -->
+  <title>B-Shopping Cart</title>
+</head>
+<body>
+  <div class="container">
+    <h1>My Shopping Cart</h1>
+    <!--les articles  sont pré-selectionne (chekpoint: items have already been preselected  -->
+    <div class="cart">
+      <!--div 1 pour l'article 1 (item 1 ) -->
+      <div class="cart-item">
+        <img src="img/jogging.png" alt="jogging">
+        <div class="item-details">
+          <h4>jogging</h4>
+          <p>Price: $60</p>
+          <div class="quantity">
+            <button class="decrement">-</button>
+            <span class="quantity-value">0</span>
+            <button class="increment">+</button>
+			<div class="like-button">&hearts;</div>
+          </div>
+          
+        </div>
+        <button class="delete-button">Delete</button>
+      </div>
+        <!--div 2 pour l'article 2 (item 2 ) -->
+	  <div class="cart-item">
+        <img src="img/t shirt.png" alt="t shirt">
+        <div class="item-details">
+          <h4>T-shirt</h4>
+          <p>Price: $10</p>
+          <div class="quantity">
+            <button class="decrement">-</button>
+            <span class="quantity-value">0</span>
+            <button class="increment">+</button>
+			<div class="like-button">&hearts;</div>
+          </div>
+          
+        </div>
+		<button class="delete-button">Delete</button>
+      </div>
+	  <!--div 3 pour l'article 3 (item 3 ) -->
+	  <div class="cart-item">
+        <img src="img/shoes.png" alt="shoes">
+        <div class="item-details">
+          <h4>Shoes</h4>
+          <p>Price: $10</p>
+          <div class="quantity">
+            <button class="decrement">-</button>
+            <span class="quantity-value">0</span>
+            <button class="increment">+</button>
+			<div class="like-button">&hearts;</div>
+          </div>
+          
+        </div>
+        <button class="delete-button">Delete</button>
+      </div>
+        <!--div 4 pour l'article 4 (item 4 ) -->
+      <div class="cart-item">
+        <img src="img/Jeans.PNG" alt="Jeans">
+        <div class="item-details">
+          <h4>Jeans</h4>
+          <p>Price: $20</p>
+          <div class="quantity">
+            <button class="decrement">-</button>
+            <span class="quantity-value">0</span>
+            <button class="increment">+</button>
+			<div class="like-button">&hearts;</div>
+          </div>
+          
+        </div>
+        <button class="delete-button">Delete</button>
+      </div>
+	  
+    </div>
+    <div class="total-price">Total: $<span id="total-price">0</span></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
